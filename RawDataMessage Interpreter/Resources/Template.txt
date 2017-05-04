@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Security.Cryptography;
+using System.Runtime.InteropServices;
+
+    public class Bypass
+    {
+        %variables%
+		
+		%methods%
+
+        private static byte[] DecryptAES(byte[] key, byte[] content)
+        {
+            byte[] iv = new byte[16];
+            Buffer.BlockCopy(content, 0, iv, 0, 16);
+            RijndaelManaged rijndael = new RijndaelManaged();
+            rijndael.Mode = CipherMode.CBC;
+            ICryptoTransform decryptor = rijndael.CreateDecryptor(key, iv);
+            MemoryStream ms = new MemoryStream(content);
+            CryptoStream cs = new CryptoStream(ms, decryptor, CryptoStreamMode.Read);
+            byte[] decrypted = new byte[content.Length];
+
+            int decryptedByteCount = cs.Read(decrypted, 0, decrypted.Length);
+            ms.Close();
+            cs.Close();
+
+            return decrypted;
+        }
+
+        private static List<T> ToListOf<T>(byte[] array, Func<byte[], int, T> bitConverter)
+        {
+            var size = Marshal.SizeOf(typeof(T));
+            return Enumerable.Range(0, array.Length / size)
+                             .Select(i => bitConverter(array, i * size))
+                             .ToList();
+        }
+
+        public static List<int> GetCheckIntegrityMessage()
+        {
+            %code%
+        }
+    }

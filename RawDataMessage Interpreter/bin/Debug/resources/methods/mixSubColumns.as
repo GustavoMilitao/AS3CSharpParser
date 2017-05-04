@@ -1,0 +1,21 @@
+this.tmp.length = 0;
+        this.tmp[0] = Xtime2Sbox[this.state[0]] ^ Xtime3Sbox[this.state[5]] ^ Sbox[this.state[10]] ^ Sbox[this.state[15]];
+        this.tmp[1] = Sbox[this.state[0]] ^ Xtime2Sbox[this.state[5]] ^ Xtime3Sbox[this.state[10]] ^ Sbox[this.state[15]];
+        this.tmp[2] = Sbox[this.state[0]] ^ Sbox[this.state[5]] ^ Xtime2Sbox[this.state[10]] ^ Xtime3Sbox[this.state[15]];
+        this.tmp[3] = Xtime3Sbox[this.state[0]] ^ Sbox[this.state[5]] ^ Sbox[this.state[10]] ^ Xtime2Sbox[this.state[15]];
+        this.tmp[4] = Xtime2Sbox[this.state[4]] ^ Xtime3Sbox[this.state[9]] ^ Sbox[this.state[14]] ^ Sbox[this.state[3]];
+        this.tmp[5] = Sbox[this.state[4]] ^ Xtime2Sbox[this.state[9]] ^ Xtime3Sbox[this.state[14]] ^ Sbox[this.state[3]];
+        this.tmp[6] = Sbox[this.state[4]] ^ Sbox[this.state[9]] ^ Xtime2Sbox[this.state[14]] ^ Xtime3Sbox[this.state[3]];
+        this.tmp[7] = Xtime3Sbox[this.state[4]] ^ Sbox[this.state[9]] ^ Sbox[this.state[14]] ^ Xtime2Sbox[this.state[3]];
+        this.tmp[8] = Xtime2Sbox[this.state[8]] ^ Xtime3Sbox[this.state[13]] ^ Sbox[this.state[2]] ^ Sbox[this.state[7]];
+        this.tmp[9] = Sbox[this.state[8]] ^ Xtime2Sbox[this.state[13]] ^ Xtime3Sbox[this.state[2]] ^ Sbox[this.state[7]];
+        this.tmp[10] = Sbox[this.state[8]] ^ Sbox[this.state[13]] ^ Xtime2Sbox[this.state[2]] ^ Xtime3Sbox[this.state[7]];
+        this.tmp[11] = Xtime3Sbox[this.state[8]] ^ Sbox[this.state[13]] ^ Sbox[this.state[2]] ^ Xtime2Sbox[this.state[7]];
+        this.tmp[12] = Xtime2Sbox[this.state[12]] ^ Xtime3Sbox[this.state[1]] ^ Sbox[this.state[6]] ^ Sbox[this.state[11]];
+        this.tmp[13] = Sbox[this.state[12]] ^ Xtime2Sbox[this.state[1]] ^ Xtime3Sbox[this.state[6]] ^ Sbox[this.state[11]];
+        this.tmp[14] = Sbox[this.state[12]] ^ Sbox[this.state[1]] ^ Xtime2Sbox[this.state[6]] ^ Xtime3Sbox[this.state[11]];
+        this.tmp[15] = Xtime3Sbox[this.state[12]] ^ Sbox[this.state[1]] ^ Sbox[this.state[6]] ^ Xtime2Sbox[this.state[11]];
+        this.state.position = 0;
+        this.state.writeBytes(this.tmp, 0, Nb * 4);
+        return;
+    

@@ -1,0 +1,22 @@
+D:\Projet Visual Studio 2015\RawDataMessage Interpreter\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.exe.config
+D:\Projet Visual Studio 2015\RawDataMessage Interpreter\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.exe
+D:\Projet Visual Studio 2015\RawDataMessage Interpreter\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.pdb
+D:\Projet Visual Studio 2015\RawDataMessage Interpreter\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.csprojResolveAssemblyReference.cache
+D:\Projet Visual Studio 2015\RawDataMessage Interpreter\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.exe
+D:\Projet Visual Studio 2015\RawDataMessage Interpreter\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.pdb
+C:\Users\Charles\Documents\GitHub\RawDataMessage\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.exe.config
+C:\Users\Charles\Documents\GitHub\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.exe
+C:\Users\Charles\Documents\GitHub\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.pdb
+C:\Users\Charles\Documents\GitHub\RawDataMessage\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.exe
+C:\Users\Charles\Documents\GitHub\RawDataMessage\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.pdb
+C:\Users\Charles\Documents\GitHub\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.csprojResolveAssemblyReference.cache
+C:\Users\Charles\Documents\GitHub\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage_Interpreter.Properties.Resources.resources
+C:\Users\Charles\Documents\GitHub\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.csproj.GenerateResource.Cache
+C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.exe.config
+C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.exe
+C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.pdb
+C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.csprojResolveAssemblyReference.cache
+C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage_Interpreter.Properties.Resources.resources
+C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.csproj.GenerateResource.Cache
+C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.exe
+C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.pdb

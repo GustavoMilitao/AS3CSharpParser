@@ -1,0 +1,2 @@
+return this.mode.getBlockSize();
+    

@@ -1,0 +1,23 @@
+var _loc_1:* = 0;
+        this.state[0] = Sbox[this.state[0]];
+        this.state[4] = Sbox[this.state[4]];
+        this.state[8] = Sbox[this.state[8]];
+        this.state[12] = Sbox[this.state[12]];
+        _loc_1 = Sbox[this.state[1]];
+        this.state[1] = Sbox[this.state[5]];
+        this.state[5] = Sbox[this.state[9]];
+        this.state[9] = Sbox[this.state[13]];
+        this.state[13] = _loc_1;
+        _loc_1 = Sbox[this.state[2]];
+        this.state[2] = Sbox[this.state[10]];
+        this.state[10] = _loc_1;
+        _loc_1 = Sbox[this.state[6]];
+        this.state[6] = Sbox[this.state[14]];
+        this.state[14] = _loc_1;
+        _loc_1 = Sbox[this.state[15]];
+        this.state[15] = Sbox[this.state[11]];
+        this.state[11] = Sbox[this.state[7]];
+        this.state[7] = Sbox[this.state[3]];
+        this.state[3] = _loc_1;
+        return;
+    
