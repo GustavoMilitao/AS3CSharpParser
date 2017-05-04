@@ -185,9 +185,11 @@ namespace RawDataMessage_Interpreter.RawDataMessage
         {
             StringBuilder builder = new StringBuilder();
             builder.Append(String.Join(" ", "namespace ", nameSpace, "{"));
+            builder.AppendLine();
             foreach (Class c in classList)
             {
                 builder.Append(String.Join(" ", c.Scope, c.Static, "class", c.Name, "{"));
+                builder.AppendLine();
                 string parameters = string.Empty;
                 foreach(Variable v in c.Variables)
                 {
@@ -196,7 +198,9 @@ namespace RawDataMessage_Interpreter.RawDataMessage
                         v.Value = " = " + v.Value;
                     }
                     builder.Append(String.Join(" ", v.Scope, v.Static, v.Const, v.Type, v.Name, v.Value,";"));
+                    builder.AppendLine();
                 }
+                builder.AppendLine();
                 foreach (Method m in c.Methods)
                 {
                     if (m.Parameters != null)
@@ -212,6 +216,7 @@ namespace RawDataMessage_Interpreter.RawDataMessage
                     builder.Append("}");
                     builder.AppendLine();
                 }
+                builder.AppendLine();
                 builder.Append("}");
                 builder.AppendLine();
             }

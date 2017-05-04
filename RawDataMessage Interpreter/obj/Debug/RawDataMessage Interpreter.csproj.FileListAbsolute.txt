@@ -20,3 +20,11 @@ C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\obj\Debug
 C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.csproj.GenerateResource.Cache
 C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.exe
 C:\Users\Kaioso\Source\Repos\RawDataMessage\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.pdb
+E:\Source\Repos\AS3CSharpParser\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.exe.config
+E:\Source\Repos\AS3CSharpParser\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.exe
+E:\Source\Repos\AS3CSharpParser\RawDataMessage Interpreter\bin\Debug\RawDataMessage Interpreter.pdb
+E:\Source\Repos\AS3CSharpParser\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.csprojResolveAssemblyReference.cache
+E:\Source\Repos\AS3CSharpParser\RawDataMessage Interpreter\obj\Debug\RawDataMessage_Interpreter.Properties.Resources.resources
+E:\Source\Repos\AS3CSharpParser\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.csproj.GenerateResource.Cache
+E:\Source\Repos\AS3CSharpParser\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.exe
+E:\Source\Repos\AS3CSharpParser\RawDataMessage Interpreter\obj\Debug\RawDataMessage Interpreter.pdb

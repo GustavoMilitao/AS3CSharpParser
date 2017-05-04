@@ -15,29 +15,31 @@ namespace RawDataMessage_Interpreter
 
         static void Main(string[] args)
         {
-            //if (args.Length < 0)
-            //{
-            //    Console.WriteLine("Usage: RawDataMessage Interpreter.exe [file(.swf)]");
-            //}
-            //else
-            //{
-            //    if (!Java.Checker.IsJavaInstalled())
-            //    {
-            //        Console.WriteLine("Java n'est pas installé sur votre ordinateur!");
-            //        return;
-            //    }
+            ////if (args.Length < 0)
+            ////{
+            ////    Console.WriteLine("Usage: RawDataMessage Interpreter.exe [file(.swf)]");
+            ////}
+            ////else
+            ////{
+            ////    if (!Java.Checker.IsJavaInstalled())
+            ////    {
+            ////        Console.WriteLine("Java n'est pas installé sur votre ordinateur!");
+            ////        return;
+            ////    }
 
-            //    string inputFile = @"resources\2017-02-23 14-07-46_RDM.swf";//args[0];
-            //    Swf swf = new Swf(inputFile);
+            ////    string inputFile = @"resources\2017-02-23 14-07-46_RDM.swf";//args[0];
+            ////    Swf swf = new Swf(inputFile);
 
-            RawDataMessage.RawDataMessage rawDataMessage = new RawDataMessage.RawDataMessage();
-            RawDataMessage.CheckIntegrityMessage checkIntegrityMessage = new RawDataMessage.CheckIntegrityMessage();
-            rawDataMessage.getCheckIntegrityMessage();
+            //RawDataMessage.RawDataMessage rawDataMessage = new RawDataMessage.RawDataMessage();
+            //RawDataMessage.CheckIntegrityMessage checkIntegrityMessage = new RawDataMessage.CheckIntegrityMessage();
+            //rawDataMessage.getCheckIntegrityMessage();
 
-                //checkIntegrityMessage.initCheckIntegrityMessage(rawDataMessage.getCheckIntegrityMessage());
-            checkIntegrityMessage.data.ForEach(item => Console.Write(item + ","));
-            //}
-            //Console.Read();
+            //    //checkIntegrityMessage.initCheckIntegrityMessage(rawDataMessage.getCheckIntegrityMessage());
+            //checkIntegrityMessage.data.ForEach(item => Console.Write(item + ","));
+            ////}
+            ////Console.Read();
+
+            RawDataMessage.RawDataMessage.DirSearch(@"E:\Source\Repos\BlueSheep\BlueSheep\Common\Protocol\types");
         }
     }
 }
